@@ -1,0 +1,10 @@
+isim1= ("Zehra","Hulya","Murat")
+isim2=("Mehmet zia","Numan","Volkan")
+isim3=("Ayse","Gatma","Tahsin")
+#isim4=("Ayse2","Gatma2","Tahsin2")
+
+print(zip(isim1,isim2))
+print(tuple(zip(isim1,isim2)))
+print(dict(zip(isim1,isim2)))
+yeni=set(zip(isim1,isim2,isim3))
+print(yeni)
